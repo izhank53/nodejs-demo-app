@@ -18,8 +18,8 @@ steps:
       password: ${{ secrest. DOCKERHUB_TOKEN }}
 
   - name: Build and push Docker image
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          push: true
-          tags: izhank53/nodejs-demo-app:latest
+    uses: docker/build-push-action@v6
+    with:
+      context: .
+      push: true
+      tags: izhank53/nodejs-demo-app:latest
