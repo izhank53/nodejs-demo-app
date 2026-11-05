@@ -1,15 +1,12 @@
 {
-  "name": "nodejs-image-demo",
+  "name": "nodejs-demo-app",
   "version": "1.0.0",
-  "description": "nodejs image demo",
-  "author": "Mirsaid Alizada <mirsaidalizade6@gmail.com>",
-  "license": "MIT",
+  "description": "Node.js demo application for DevOps CI/CD",
+  "private": true,
   "main": "app.js",
-  "keywords": [
-    "nodejs",
-    "bootstrap",
-    "express"
-  ],
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
   }
